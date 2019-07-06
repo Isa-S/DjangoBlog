@@ -1,6 +1,6 @@
 #__author:   Shiisa
 #__date:    2019/7/6
 
-caro = 'ss'
+caro = 'ss' + 'son'
 
 ss = 'caro'
