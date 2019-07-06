@@ -15,6 +15,7 @@ class OAuthUserAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'nikename')
     list_filter = ('author', 'type',)
     readonly_fields = []
+    caro = 'programmer'
 
     def get_readonly_fields(self, request, obj=None):
         return list(self.readonly_fields) + \

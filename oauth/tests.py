@@ -10,3 +10,4 @@ class OAuthConfigTest(TestCase):
         c.appkey = 'appkey'
         c.appsecret = 'appsecret'
         c.save()
+        ss = 'pig'
